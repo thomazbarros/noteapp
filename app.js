@@ -1,5 +1,5 @@
-const add = require('./utils.js');
+const getNotes = require('./notes');
 
+const msg = getNotes();
 
-console.log(add(1,-200));
-
+console.log(msg);
